@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.wrapper{
+    background: url("../Fotos/Destino.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-area{
+    background: rgba(0,0,0,0.82); 
+    height: 60px; 
+    position:absolute;
+    width: 100%;
+  }
+  
+  .logo{
+      margin: 0 60px;
+      height:70px;
+      color:whitesmoke;
+      font-size: 40px;
+      text-transform: capitalize;
+      float: left;
+      letter-spacing: 2px;
+      font-weight: bold;
+  }
+  
+  .logo span{
+      color: #00ff00;
+  }
+  
+  .menu-area{
+      float:right;
+      list-style: none;
+      margin: 25px;
+  }
+  
+  .menu-area li{
+      display:inline-block; /*comando que transforma coluna em linha*/
+      margin:0 30px;
+  }
+  
+  .menu-area li a{
+      text-decoration: none;
+      color: #fff;
+      padding: 6px 12px;
+      letter-spacing: 2px;
+  }
+  
+  .menu-area li.active a{
+      color: #00ff00;
+  }
+  
+  .menu-area li a:hover{ /*comando que faz mudar o texto do menu*/
+      color: #00ff00;
+  }
+
+  .box-t1{
+    position:absolute;
+    color:#fff;
+    margin:0;
+    left: 20%;
+    right: 20%;
+    background-color: rgba(0,0,0,0.75)
+}
+.box-t1 h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.box-t1 span{
+    color:#00ff00;
+}
+
+.box-t1 p{
+    color:white;
+    font-size: 20px;
+}
+
+
+.box-t2{
+    position:absolute;
+    color:#00ff00;
+    margin:0;
+    left: 20%;
+    background-color: rgba(0,0,0,0.75)
+}
+
+.box-t3{
+    position: absolute;
+    margin:0;
+    left: 55%;
+    color: white;
+}

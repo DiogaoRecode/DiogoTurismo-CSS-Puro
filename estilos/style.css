@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: poppins;
+}
+
+.fix{
+    clear: both;
+    overflow: hidden;
+}
+
+.header{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.vid-bg{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav-area{
+  background: rgba(0,0,0,0.82); 
+  height: 60px; 
+  position:absolute;
+  width: 100%;
+}
+
+.logo{
+    margin: 0 60px;
+    height:70px;
+    color:whitesmoke;
+    font-size: 40px;
+    text-transform: capitalize;
+    float: left;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.logo span{
+    color: #00ff00;
+}
+
+.menu-area{
+    float:right;
+    list-style: none;
+    margin: 25px;
+}
+
+.menu-area li{
+    display:inline-block; /*comando que transforma coluna em linha*/
+    margin:0 30px;
+}
+
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 12px;
+    letter-spacing: 2px;
+}
+
+.menu-area li.active a{
+    color: #00ff00;
+}
+
+.menu-area li a:hover{ /*comando que faz mudar o texto do menu*/
+    color: #00ff00;
+}
+
+.banner-text{
+    position:absolute;
+    top:35%;
+    text-align: center;
+    left: 30%;
+}
+
+.banner-text h2{
+    color: #fff;
+    font-size: 80px;
+    margin:0;
+}
+
+.banner-text h2 span{
+    color: #00ff00;
+    font-size: 80px;
+    margin:0;
+}
+
+.banner-text p{
+    color: #fff;
+    font-size: 18px;
+    margin:0;
+    font-weight: bold;
+}
+
+.box{
+    position:absolute;
+    transform:translate (-50%,-50%);
+    background-color: rgba(0,0,0,0.4);
+    top:95%;
+    text-align: center;
+    left: 15%;
+    color:white;
+}
+
+.box p{
+color:#00ff00
+}
+
+.btn{
+display:inline-block;
+margin-top: 5%;
+background: yellowgreen;
+border: 0;
+font-size: 12px;
+border: 3px solid #fff;
+text-transform: uppercase;
+padding: 10px 15px;
+color:#fff;
+border-radius: 18px;
+}
+
+.inputUser{
+    background:none;
+    border-bottom:1px solid #fff;
+    color:white;
+    outline: none;
+    font-size: 18px;
+    
+}
+
+.label{
+    color:white
+}
+

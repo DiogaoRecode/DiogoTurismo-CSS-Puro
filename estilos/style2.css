@@ -1,0 +1,188 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.wrapper{
+    background: url("../Fotos/Destino.jpg") no-repeat;
+    background-size: cover;
+    height: 240vh;
+}
+
+.nav-area{
+    background: rgba(0,0,0,0.82); 
+    height: 60px; 
+    position:absolute;
+    width: 100%;
+  }
+  
+  .logo{
+      margin: 0 60px;
+      height:70px;
+      color:whitesmoke;
+      font-size: 40px;
+      text-transform: capitalize;
+      float: left;
+      letter-spacing: 2px;
+      font-weight: bold;
+  }
+  
+  .logo span{
+      color: #00ff00;
+  }
+  
+  .menu-area{
+      float:right;
+      list-style: none;
+      margin: 25px;
+  }
+  
+  .menu-area li{
+      display:inline-block; /*comando que transforma coluna em linha*/
+      margin:0 30px;
+  }
+  
+  .menu-area li a{
+      text-decoration: none;
+      color: #fff;
+      padding: 6px 12px;
+      letter-spacing: 2px;
+  }
+  
+  .menu-area li.active a{
+      color: #00ff00;
+  }
+  
+  .menu-area li a:hover{ /*comando que faz mudar o texto do menu*/
+      color: #00ff00;
+  }
+
+  .container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+.card{
+    background: white;
+    width: 350px;
+    height:550px;
+    margin:15px;
+    border-radius: 15px;
+
+}
+  
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px  0 0;
+}
+
+.dest-1{
+background-image: url(../Fotos/serra\ gaucha.jpg);
+}
+
+.dest-2{
+    background-image: url(../Fotos/san\ andreas.jpg);
+}
+
+.dest-3{
+        background-image: url(../Fotos/natal.jpg);
+}
+
+.dest-4{
+    background-image: url(../Fotos/mexico.jpg);
+       }
+
+.dest-5{
+    background-image: url(../Fotos/peru.jpg);
+    }
+
+.dest-6{
+        background-image: url(../Fotos/monte\ verde.jpg);
+     }
+
+.card h2,h3{
+    padding: 10px;
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+}
+.card a{
+    background-color: black;
+    color:white;
+    padding: 10px 10px;
+    display:block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover{
+    background-color: rgba(62,62,62);
+}
+
+.box-t4{
+    position:absolute;
+    transform:translate (-40%,-40%);
+    text-align: center;
+    color:#00ff00;
+    left: 20%;
+    right: 20%;
+    font-size: 25px;
+    background-color: white;
+}
+
+.box{
+    position:absolute;
+    transform:translate (-40%,-40%);
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    color:white;
+    left: 20%;
+    right: 20%;
+    font-size: 17px;
+}
+
+
+.box p{
+color:#00ff00;
+font-size: 20px;
+}
+
+.btn{
+display:inline-block;
+margin-top: 5%;
+background: yellowgreen;
+border: 0;
+font-size: 14px;
+border: 2px solid #fff;
+text-transform: uppercase;
+padding: 10px 15px;
+color:#fff;
+border-radius: 10px;
+}
+
+.inputUser{
+    background:none;
+    border-bottom:1px solid #fff;
+    color:white;
+    outline: none;
+    font-size: 17px; /*aumenta o tamanho do retangulo de preenchimento*/
+    
+}
+
+.box-t2{
+    position:absolute;
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    margin:0;
+    left: 20%;
+    right: 20%;
+}
+
+
+
