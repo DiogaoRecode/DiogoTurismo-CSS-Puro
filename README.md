@@ -1,6 +1,3 @@
-# DiogoTurismo-CSS-Puro
-Projeto Modulo 3  RecodePRO (  Site de turismo feito em Html, CSS e JavaScript)
-
 
 # DiogoTurismo em CSS Puro
 🚧 Projeto Modulo 3  RecodePRO ( Site de turismo feito em Html, CSS e JavaScript)
