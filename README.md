@@ -4,7 +4,7 @@
 
 Neste projeto foi criado o site para a agência de viagens DIOGO TURISMO. Contemplou-se uma estrutura de layout com um menu horizontal 
 na parte superior de todas as páginas. Desenvolveu-se as páginas: Home, Destino, Promoções e Contato de acordo com seu modelo de dados
-usando HTML e CSS raiz, seguindo as formatações de acordo com a paleta de cores escolhida: Amarelo ,Branco e Preto.
+usando HTML e CSS raiz, seguindo as formatações de acordo com a paleta de cores escolhida: Verde ,Branco e Preto.
 
 # Telas
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/93298872/160499825-8356595c-a832-4f80-885b-25a0fe32e573.gif)
