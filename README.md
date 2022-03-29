@@ -1,6 +1,6 @@
 
 # DiogoTurismo em CSS Puro
-🚧 Projeto Modulo 3  RecodePRO ( Site de turismo feito em Html, CSS e JavaScript)
+🚧 Projeto Modulo 3  RecodePRO ( Site de turismo feito em Html e CSS)
 
 Neste projeto foi criado o site para a agência de viagens DIOGO TURISMO. Contemplou-se uma estrutura de layout com um menu horizontal 
 na parte superior de todas as páginas. Desenvolveu-se as páginas: Home, Destino, Promoções e Contato de acordo com seu modelo de dados
